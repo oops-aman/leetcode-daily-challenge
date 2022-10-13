@@ -10,7 +10,7 @@ public:
             }
         }
         s.pop_back();  
-        s+='b';
+        s += 'b';
         return s;
     }
 };

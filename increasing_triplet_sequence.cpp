@@ -1,7 +1,8 @@
 class Solution {
 public:
     bool increasingTriplet(vector<int>& nums) {
-        int fMax = INT_MAX, sMax = INT_MAX;
+        int fMax = INT_MAX;
+        int sMax = INT_MAX;
         for(int i: nums) {
             if(fMax >= i)
                 fMax = i;
