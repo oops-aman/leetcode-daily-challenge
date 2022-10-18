@@ -7,4 +7,4 @@ public:
         }
         return (s.size() == 26);
     }
-};s
+};
